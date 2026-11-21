@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>테크노푸드몰 관리비</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="theme-color" content="#2563eb">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="관리비">
+<style>
+html, body { margin: 0; height: 100%; background: #fff; }
+iframe { border: 0; width: 100%; height: 100vh; height: 100dvh; display: block; }
+</style>
+</head>
+<body>
+<iframe src="https://techno-bill.streamlit.app/?embed=true" allow="camera; clipboard-write" title="테크노푸드몰 관리비"></iframe>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+</body>
+</html>
